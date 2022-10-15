@@ -1,0 +1,70 @@
+<%- include('partials/header') -%>
+
+
+<div id="footer" class="wrapper">
+    <div class="inner">
+        <header>
+            <h2>Schedule a Tow</h2>
+            
+        </header>
+        <section class="contact-form">
+            <form method="post" action="#">
+                <div class="fields">
+                    <div class="field half">
+                        <input name="firstName" id="name" placeholder="First Name" type="text" />
+                    </div>
+                    <div class="field half">
+                        <input name="lastName" id="lastName" placeholder="Last Name" type='text'/>
+                    </div>
+                    <div class="field half">
+                        <input name="email" id="email" placeholder="Email" type="email" />
+                    </div>
+                    <div class="field half">
+                        <input name="phone" id="phone" placeholder="Phone Number" type="tel" />
+                    </div>
+                    <div class="field half">
+                        <input name="year" id="year" placeholder="Year" type="text" />
+                    </div>
+                    <div class="field half">
+                        <input name="make" id="make" placeholder="Make" type="text" />
+                    </div>
+                    <div class="field half">
+                        <input name="model" id="model" placeholder="Model" type="text" />
+                    </div>
+                    <div class="field half">
+                        <input name="date" id="date" placeholder="Date" type="date" />
+                    </div>
+                    <div class="field half">
+                        <input name="location" id="location" placeholder="Location of Vehicle" type="text" />
+                    </div>
+                    <div class="field half">
+                        <input name="destination" id="destination" placeholder="Destination/tow to" type="text" />
+                    </div>
+                    <div class="field half">
+                        <select name="service" id="pet-select">
+                            <option value="">Type of Service Requested</option>
+                            <option value="tow">Tow</option>
+                            <option value="winch">Winch</option>
+                            <option value="jumpstart">Jump Start</option>
+                            <option value="fuel">Fuel Delivery</option>
+                            <option value="tire">Tire Change</option>
+                            <option value="battery">Battery Replacement</option>
+                        </select>
+                    </div>
+                    
+                    <div class="field">
+                        <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+                    </div>
+                    <div class="field">
+                        <ul class="actions special">
+                            <li><button type="submit" class="button primary" >Submit</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+        </section>
+        
+    
+        
+
+<%- include('partials/footer') -%>
